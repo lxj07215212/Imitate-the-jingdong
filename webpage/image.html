@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+
+        }
+        .eye{
+            perspective: 1000px;
+        }
+        .picture{
+            transform-style: preserve-3d;
+            width: 200px;
+            height: 200px;
+            margin: 400px auto;
+            animation: photo 5s linear 0s infinite;
+        }
+        .picture div{
+            opacity: 0.9;
+            transition: 1s;
+            position: absolute;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="eye">
+        <div class="picture">
+            <div class="one"><img src="" alt="" width="100% height=" 100%"></div>
+            <div class="two"><img src="" alt="" width="100% height=" 100%"></div>
+            <div class="three"><img src="" alt="" width="100% height=" 100%"></div>
+            <div class="four"><img src="" alt="" width="100% height=" 100%"></div>
+            <div class="five"><img src="" alt="" width="100% height=" 100%"></div>
+            <div class="fix"><img src="" alt="" width="100% height=" 100%"></div>
+        </div>
+    </div>
+</body>
+</html>
